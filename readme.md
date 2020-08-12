@@ -1,14 +1,6 @@
-# Example Connect Redis
+# Simple Redis
 
-### Install Redis
-```sh
-$ docker run --name some-redis -dp 6379:6379 redis
-```
---- 
+---
 
-### Init App
-
-```sh
-$ yarn
-$ node index.js
-```
+- [basic connect redis](/basic-connect)
+- [Example Pub/Sub with Redis](/pub-sub)
