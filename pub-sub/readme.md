@@ -4,6 +4,31 @@
 
 ---
 
+## Basic Command
+
+- pane or window on terminal 1 ( Subscribe )
+```sh
+$ redis-cli
+...
+127.0.0.1:6379> SUBSCRIBE channel [channel ...]
+```
+
+![](1.png)
+
+> For start SUBSCRIBER Channel
+
+- pane or window on terminal 2 ( Publish )
+
+```sh
+$ redis-cli
+...
+127.0.0.1:6379> PUBLISH channel message
+```
+
+![](2.png)
+
+---
+## NodeJs
 ### Install Db
 ```sh
 $ docker run --name some-postgres -e POSTGRES_PASSWORD=<password> -dp 5432:5432 postgres
