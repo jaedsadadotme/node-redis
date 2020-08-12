@@ -1,6 +1,5 @@
 # Example Pub/Sub with Redis
 
----
 - Ref : [nodejs-redis-pubsub-db](https://github.com/fluke34261/nodejs-redis-pubsub-db)
 
 ---
